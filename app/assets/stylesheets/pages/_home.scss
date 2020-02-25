@@ -1,2 +1,33 @@
 // Specific CSS for your home-page
+.banner {
+  margin: 0;
+  padding: 0;
+  background: image-url('neon.jpg') no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+  }
+}
+
+#new_game_session {
+  input {
+    font-size: 32px;
+  }
+}
+
+#new_session {
+  background-color: transparent;
+  border-color: transparent;
+  color: $p-orange;
+}
